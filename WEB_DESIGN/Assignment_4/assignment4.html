@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page">
+        <form action="">
+            <div class="title">
+                
+                <legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <H1>
+                                    CENTENNIAL COLLEGE
+                                </H1>
+                                <H3>
+                                    Continuing Education Course/Instructor Evaluation
+                                </H3>            
+                            </td>
+                            <td id="centennial_logo">
+                                <a href="http://centennialcollege.ca" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://www.centennialcollege.ca/media/hg5nrxf4/centennialcollege_logo_horizontal_rgb.jpg" alt="Centennial Logo" width="350px">
+                                </a>            
+                            </td>
+                        </tr>
+                    </table>
+                </legend>
+            </div>
+            <br>
+            <p>
+                Pleas read carefully and consider each one individually.
+                Use the <strong>computer card</strong> to make your choice
+                (use a pencil to fill in the space). Give only <strong>one answer</strong>
+                 for each question.
+            </p>
+            <hr>
+            <br>
+            <div class="box">
+                <label for="course_name"><b>Course Name/Code: </b></label>
+                <input type="text" id="course_name_input" size="100%" required>
+            </div>
+            <br>
+            <div class="box">
+                <label for="semester"><b>Semester:</b></label>
+                Fall <input type="radio" id="semester" name="semester" required>
+                Winter <input type="radio" id="semester" name="semester" required>
+                Spring/Summer <input type="radio" id="semester" name="semester" required>
+                <label for="year"><b>Year:</b></label>
+                <input type="text" name="year" id="year" maxlength="4" required>         
+            </div>
+            <br>
+            <div class="box">
+                <label for="instructor"><b>Instructor:</b></label>
+                <input type="text" size="110" required>
+            </div>
+            <br>
+            <div class="section">
+                <h4>INSTRUCTOR</h4>
+                <p>How would you rate the professor´s:</p>
+                <fieldset class="fieldset_box">
+                    <label for="knowledge"><b>1. Knowledge</b> of subject</label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="knowledge" id="" required>
+                    B) Good <input type="radio" name="knowledge" id="" required>
+                    C) Fair <input type="radio" name="knowledge" id="" required>
+                    D) Not Satisfactory <input type="radio" name="knowledge" id="" required>
+                    <br>
+                    <br>
+                    <label for="helpfulness"><b>2. Helpfulness</b></label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="helpfulness" id="" required>
+                    B) Good <input type="radio" name="helpfulness" id="" required>
+                    C) Fair <input type="radio" name="helpfulness" id="" required>
+                    D) Not Satisfactory <input type="radio" name="helpfulness" id="" required>
+                    <br>
+                    <br>
+                    <label for="Courtesy"><b>3. Courtesy and respect</b> for all students</label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="Courtesy" id="" required>
+                    B) Good <input type="radio" name="Courtesy" id="" required>
+                    C) Fair <input type="radio" name="Courtesy" id="" required>
+                    D) Not Satisfactory <input type="radio" name="Courtesy" id="" required>
+                    <br>
+                    <br>
+                    <label for="Communication"><b>4. Communication </b>skills</label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="Communication" id="" required>
+                    B) Good <input type="radio" name="Communication" id="" required>
+                    C) Fair <input type="radio" name="Communication" id="" required>
+                    D) Not Satisfactory <input type="radio" name="Communication" id="" required>
+                    <br>
+                    <br>
+                    <label for="Performance"><b>5. Performance</b></label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="Performance" id="" required>
+                    B) Good <input type="radio" name="Performance" id="" required>
+                    C) Fair <input type="radio" name="Performance" id="" required>
+                    D) Not Satisfactory <input type="radio" name="Performance" id="" required>
+                    <br>
+                    <br>
+                </fieldset>               
+            </div>
+            <div class="section">
+                <h4>COURSE</h4>
+                <fieldset class="fieldset_box">
+                    <label for="Materials"><b>6. Materials</b></label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="Materials" id="" required>
+                    B) Good <input type="radio" name="Materials" id="" required>
+                    C) Fair <input type="radio" name="Materials" id="" required>
+                    D) Not Satisfactory <input type="radio" name="Materials" id="" required>
+                    <br>
+                    <br>
+                    <label for="Expectations"><b>7. Expectations Vs Delivered</b></label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="Expectations" id="" required>
+                    B) Good <input type="radio" name="Expectations" id="" required>
+                    C) Fair <input type="radio" name="Expectations" id="" required>
+                    D) Not Satisfactory <input type="radio" name="Expectations" id="" required>
+                    <br>
+                    <br>
+                    <label for="rate"><b>8. Overal rate</b></label>
+                    <br>
+                    <br>
+                    A) Excelent <input type="radio" name="rate" id="" required>
+                    B) Good <input type="radio" name="rate" id="" required>
+                    C) Fair <input type="radio" name="rate" id="" required>
+                    D) Not Satisfactory <input type="radio" name="rate" id="" required>
+                    <br>
+                    <br>
+                </fieldset>
+            </div>
+            <div class="section">
+                <h4>GENERAL INFORMATION</h4>
+                <fieldset class="fieldset_box">
+                    <label for="outline"><b>9. </b>Was the <b>course outline </b>reviwed/explained 
+                        at the begginig of the course?</label>
+                    <br>
+                    <br>
+                    A) Yes <input type="radio" name="outline" id="" required>
+                    B) No <input type="radio" name="outline" id="" required>
+                    C) Not sure <input type="radio" name="outline" id="" required>
+                    <br>
+                    <br>
+                    <label for="recommend"><b>10. </b>Would you <b>recommend</b> this course to a friend?</label>
+                    <br>
+                    <br>
+                    A) Yes <input type="radio" name="recommend" id="" required>
+                    B) No <input type="radio" name="recommend" id="" required>
+                    C) Not sure <input type="radio" name="recommend" id="" required>
+                    <br>
+                    <br>
+                </fieldset>
+            </div>
+            <div class="section">
+                <h4>ANY OTHER COMMENTS</h4>
+                <fieldset class="fieldset_box">
+                    <label for="best"><b>11. </b>Was is the <b>best thing </b>about
+                    this course?</label>
+                    <input type="text" name="best" id="" size="80" required>
+                    <br>
+                    <br>
+                    <label for="improve"><b>12. </b>How could we <b>improve your experience </b>with
+                    this course?</label>
+                    <input type="text" name="improve" id="" size="61" required>
+                    <br>
+                    <br>
+                    <label for="other"><b>13. Other</b></label>
+                    <textarea name="other" id="" cols="100" rows="3" maxlength="200" required></textarea>
+                    <br>
+                    <br>
+                </fieldset>
+            </div>
+            <div class="title">
+                <br>
+                
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <br>
+                <hr>
+                <h5>Thank you for taking the survey! We pay attention to your feedback!</h5>
+                <h5>Web : 
+                    <a href="https://secure.centennialcollege.ca/webreg/help.do" target="_blank">www.centennialcollege.ca/continuing_education</a>
+                </h5>
+                <h5>Email : 
+                    <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+                </h5>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

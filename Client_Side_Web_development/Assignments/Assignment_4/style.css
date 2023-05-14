@@ -1,0 +1,61 @@
+body{
+    /*background-color: rgba(20, 19, 19, 0.911);*/
+    background-image: url("background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page{
+    /*border: 1px solid rgb(129, 126, 126);*/
+    margin: auto;
+    margin-top: 170px;
+    width: 1600px;
+}
+
+#title{
+    font-family:cursive;
+}
+#subtitle{
+    font-family: 'Times New Roman', Times, serif;
+}
+#presentation{
+    /*border: 1px solid black;*/
+    margin-bottom: 100px;
+    text-align: center;
+}
+#slideshow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#update{
+    width: 100px;
+    margin: 10px;
+    
+}
+
+#previous{
+    float: left;
+    position: relative;
+    bottom: -100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#next{
+    position: relative;
+    float: right;
+    width: 100px;
+    margin: 10px;
+    bottom: -100px;
+}
+.centered{
+    text-align: center;
+}
+
+.photo{
+    width: 300px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px;
+}

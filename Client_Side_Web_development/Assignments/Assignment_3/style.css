@@ -1,0 +1,30 @@
+#game_section{
+    margin:auto;
+    width: 30%;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    color: rgb(159, 194, 32);
+    font-size: xx-large;
+
+
+}
+
+#label{
+    font-size:x-large;
+    font-style:oblique;
+}
+
+.buttons{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: x-large;
+    font-style: oblique;
+    border-radius: 10%;
+}
+
+body{
+    background-color: rgb(27, 122, 91);
+}

@@ -1,0 +1,12 @@
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\bin\Debug\finalTest.exe.config
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\bin\Debug\finalTest.exe
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\bin\Debug\finalTest.pdb
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.csproj.AssemblyReference.cache
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.Form1.resources
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.Properties.Resources.resources
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.csproj.GenerateResource.cache
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.csproj.CoreCompileInputs.cache
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.exe
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.pdb
+C:\Users\razen 3\Desktop\Migracion CAN\PART_II\CENTENNIAL\SEMESTER II\Programming_II\W_12\Final test\finalTest\finalTest\obj\Debug\finalTest.Form2.resources

@@ -1,0 +1,72 @@
+#body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: darkcyan;
+    width: 980px;
+    height: 1500px;
+}
+#body_margin{
+    padding: 25px;
+}
+#banner{
+    height: 200px;
+    width: 100%;
+}
+#scooter_frame{
+    float: left;
+    width: 200px;
+    color: rgb(255, 255, 255);
+}
+#scooter_image{
+    width: 350px;
+}
+#scooter_description{
+    float: right;
+    width: 550px;
+    text-align: left;
+}
+#table{
+    clear: both;
+}
+#table_header{
+    text-align: left;
+    background-color: rgb(189, 10, 10);
+    color: rgba(255, 255, 255, 0.973);
+}
+.light_cell{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.dark_cell{
+    text-align: left;
+    background-color: rgba(177, 116, 116, 0.521);
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 150px;
+    left: 3%;
+    color: black;
+}
+.right{
+    position: absolute;
+    top: 150px;
+    left: 95%;
+}
+footer{
+    clear: both;
+}
+.features_list{
+    list-style-type: circle;
+}
+.home_page{
+    text-align: right;
+}
+body{
+    background-color: rgba(5, 5, 5, 0.795); 
+    margin-left: 20%; 
+    margin-right: 20%;
+}

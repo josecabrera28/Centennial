@@ -1,0 +1,35 @@
+/*h1{
+    margin: 20px 100px;
+}*/
+/*div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid black;
+    padding: 50px 30px 50px;
+    border-radius: 15px;
+    width: 30%;
+    height: 20%;
+}*/
+/*body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+}*/
+body{
+    background-color: firebrick;
+    background-image: radial-gradient(#ffffff, grey)
+}
+#wrapper{
+    box-shadow: 5px 10px 10px #828282;
+    text-shadow: 25px 25px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid black;
+    padding: 50px 30px 50px;
+    border-radius: 15px;
+    width: 30%;
+    height: 20%;
+}

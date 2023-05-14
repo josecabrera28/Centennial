@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+    <table border="1"><caption>Birthday List</caption>
+        <tr>
+          <th>Name</th>
+          <th>Birthday</th>
+        </tr>
+        <tr>
+          <td>James</td>
+          <td>11/08</td>
+        </tr>
+        <tr>
+          <td>Karen</td>
+          <td>4/17</td>
+       </tr>
+        <tr>
+          <td>Sparky</td>
+          <td>11/28</td>
+       </tr>
+    </table>
+    <hr>
+    <table border="2">
+        <tr>
+          <td colspan=2>Birthday List</td>
+        </tr>
+        <tr>
+          <td>James</td>
+          <td>11/08</td>
+        </tr>
+        <tr>
+          <td>Karen</td>
+          <td>4/17</td>
+       </tr>
+    </table>
+    <hr>
+    <table border="3">
+        <tr>
+            <td rowspan="2">This spans two rows</td>
+            <td>Row 1 Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Column 2</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <caption> Word Schedule</caption>
+        <tr>
+          <th id="day">Day</th>
+          <th id="hours">Hours</th>
+        </tr>
+        <tr>
+          <td headers="day">Monday</td>
+          <td headers="hours">4</td>
+        </tr>
+        <tr>
+          <td headers="day">Tuesday</td>
+          <td headers="hours">3</td>
+        </tr>
+        <tr>
+          <td headers="day">Total</td>
+          <td headers="hours">7</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="2">
+        <caption>Work Schedule</caption>
+          <thead>
+              <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td>Monday</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>7</td>
+            </tr>
+          </tfoot>
+    </table>
+    <hr>
+    <table border="1">
+        <thead style="font-style: italic;">
+            <tr>
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+            </tr>
+        </thead>
+        <tbody style="color: #5A5A5A;">
+            <tr>
+                <td>shfdf</td>
+                <td>shfdf</td>
+                <td>shfdf</td>
+            </tr>
+            <tr>
+                <td>shfdf</td>
+                <td>shfdf</td>
+                <td>shfdf</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>foot</td>
+                <td>foot</td>
+                <td>foot</td>
+            </tr>
+        </tfoot>
+    </table>    
+      
+</body>
+</html>

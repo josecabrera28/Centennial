@@ -1,0 +1,13 @@
+form { display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 6em 1fr;
+    grid-gap: 1em; gap: 1em;
+    width: 60%; min-width: 20em; padding: 2em; 
+    background-color:#eaeaea; font-family: Arial, sans-serif;
+    }
+label { float: left; clear: left;  display: block; width: 100px; 
+       text-align: right;  padding-right: 10px;  margin-top: 10px; }
+input, textarea { margin-top: 10px;  display: block;}
+input[type="submit"] { grid-column: 2 / 3;
+    width: 10em;  }
+    

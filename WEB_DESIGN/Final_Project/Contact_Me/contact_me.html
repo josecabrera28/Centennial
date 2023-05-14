@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="page_contact_me">
+        <form action="">
+            <div class="title">
+                <H1>
+                    CABRERA Real State
+                </H1>
+                <h3>
+                    Looking forward to hear how your dream house is!
+                </h3>
+            </div>
+            <br>
+            <p class="justify">Please complete the following form with all the information required, this way when one of
+                our specialists contact you, we can provide the best customer service. 
+            </p>
+            <hr>
+            <br>
+            <div class="section">
+                <h4>PERSONAL INFORMATION</h4>
+                <br>
+                <div class="box">
+                    <label for="fist_name"><b>First name: </b></label>
+                    <input type="text" name="first_name" size="100%" required>
+                </div>
+                <br>
+                <div class="box">
+                    <label for="last_name"><b>Last name: </b></label>
+                    <input type="text" name="last_name" size="100%" required>
+                </div>
+                <br>
+                <div class="box">
+                    <label for="phone"><b>Phone Number: </b></label>
+                    <input type="tel" name="phone" maxlength="10" size="20%" placeholder="XXX XXX XXXX" required>
+                </div>
+                <br>
+                <div class="box">
+                    <label for="email"><b>E-mail: </b></label>
+                    <input type="email" name="email" size="100%" placeholder="XXXX@XXXX.com" required>
+                </div>
+                
+            </div>
+
+            <div class="section">
+                <h4>PROPERTY INFORMATION</h4>
+                <fieldset class="fieldset_box">
+                    <br>
+                        <label for="Type_of_property"><b>Type of property:</b></label>
+                        House <input type="radio" id="Type_of_property" name="Type_of_property" required>
+                        Condominium <input type="radio" id="Type_of_property" name="Type_of_property" required>
+                        Shack <input type="radio" id="Type_of_property" name="Type_of_property" required>
+                        Glamp <input type="radio" id="Type_of_property" name="Type_of_property" required>         
+                    <br>
+                    <br>
+                        <label for="location"><b>Location:</b></label>
+                        Beach <input type="radio" id="location" name="location" required>
+                        Forrest <input type="radio" id="location" name="location" required>
+                        Small town  <input type="radio" id="location" name="location" required>
+                        City <input type="radio" id="location" name="location" required>
+                    <br>
+                    <br>
+                        <label for="furniture"><b>Furniture:</b></label>
+                        Yes <input type="radio" id="furniture" name="furniture" required>
+                        No <input type="radio" id="furniture" name="furniture" required>
+                    <br>
+                    <br>
+                        <label for="domestic_overseas"><b>National or Overseas:</b></label>
+                        National <input type="radio" id="domestic_overseas" name="domestic_overseas" required>
+                        Overseas <input type="radio" id="domestic_overseas" name="domestic_overseas" required>
+                    <br>    
+                    <br>
+                        <label for="country"><b>If Overseas, which Country (Optional): </b></label>
+                        <input type="text" name="country" size="50%">
+                    <br>
+                    <br>
+                        <label for="number_bedrooms"><b>Number of Bedrooms: </b></label>
+                        <input type="number" name="number_bedrooms" min="1" size="20%" required>
+                        <label for="number_bathrooms"><b>Number of Bathrooms: </b></label>
+                        <input type="number" name="number_bathrooms" min="1" size="20%" required>
+                    <br>
+                    <br>
+                        <label for="price"><b>Price Range:</b></label>
+                        0.5 - 0.999 MCAD <input type="radio" id="price" name="price" required>
+                        1 - 1.999 MCAD <input type="radio" id="price" name="price" required>
+                        2 - 5 MCAD<input type="radio" id="price" name="price" required>
+                        >5 MCAD<input type="radio" id="price" name="price" required>
+                    <br>   
+                    <br>
+                </fieldset>               
+            </div>
+            <div class="section">
+                <h4>ADDITIONAL INFORMATION</h4>
+                <fieldset class="fieldset_box">
+                    <label for="how_did_you_hear"><b> How did you hear about us?</b></label>
+                    <input type="text" name="how_did_you_hear" size="80" required>
+                    <br>
+                    <br>
+                    <label for="improve"> <b>Let us know 3 times that is convinient to call you :</b> </label>
+                    <input type="text" name="improve" id="" size="61" required>
+                    <br>
+                    <br>
+                    <label for="other"><b>Any additional requirement :</b></label>
+                    <textarea name="other" id="" cols="80" rows="3" maxlength="200" required></textarea>
+                    <br>
+                    <br>
+                </fieldset>
+            </div>
+            <div class="title">
+                <br>
+                
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <br>
+                <br>
+                <button>
+                    <a href="../index.html">Go to Main Page</a>
+                    
+                </button>
+                <br>
+                <hr>
+                <h5>Thanks for your interest on us! We will contact you within 24 hours.</h5>
+                <h5>Email : 
+                    <a href="mailto:cabrerajosemiguel28@gmail.com">cabrerajosemiguel28@gmail.com</a>
+                </h5>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

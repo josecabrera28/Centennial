@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/Material/W9_Forms/index.html" method="get">
+        E-mail: <input type="email" name="email" id="email" size="30" maxlength="30" placeholder="Enter your email" >
+        <br><br>
+        <h2>Password</h2>
+        <input type="password" id="password" name="password" minlength="20" placeholder="Enter your password" required>
+        <br><br>
+        <h2>Check List</h2>
+        <input type="checkbox" id="checkbox" name="Opcion 1" value="Opcion"> Fundamentals
+        <br>
+        <input type="checkbox" id="checkbox" name="Opcion 2" value="Opcion"> Programming
+        <br>
+        <input type="checkbox" id="checkbox" name="Opcion 3" value="Opcion"> Communications
+        <br>
+        <h2>Radio button</h2>
+        <input type="radio" id="checkbox" name="Only_1_Opcion" value="Opcion" required> Centennial
+        <br>
+        <input type="radio" id="checkbox" name="Only_1_Opcion" value="Opcion" required> Seneca
+        <br>
+        <input type="radio" id="checkbox" name="Only_1_Opcion" value="Opcion" required> Humber
+        <br>
+        <h2>Text area form</h2>
+        <label for="lotoftext">Random text area label</label>
+        <textarea type="textarea" name="lotoftext" id="lotoftext" row="10" cols="30"></textarea>
+        <br>
+        <h2>Fieldset</h2>
+        <fieldset><legend>Customer Information</legend>
+            <label for="Cname">Name:  </label>
+            <input type="text" name="CName"  id="CName" size="30">           
+         <br><br>
+            <label for="CEmail">Email:  </label>
+            <input type="text" name="CEmail"  id="CEmail">
+        </fieldset>
+         <br>
+         <label for="color">Favorite color: </label>
+         <input type="text" id="color" name="colors" list="colors">
+         <datalist id="colors">
+            <option>black</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>red</option>
+            <option>yellow</option>
+         </datalist>
+
+         <br>
+        <input type="submit" value="Sign Me Up!"> 
+        <input type="reset">
+    </form>        
+</body>
+</html>
